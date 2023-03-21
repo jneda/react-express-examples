@@ -1,0 +1,32 @@
+.app {
+  min-height: 100svh;
+  width: 100%;
+}
+
+.card {
+  height: calc(100svh - 40px);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card input {
+  font: inherit;
+  font-size: 2rem;
+  padding: 0.8rem 1.6rem;
+  background: #242424;
+  color: white;
+  border-radius: 8px;
+  letter-spacing: 0.2rem;
+}
+
+.card input:hover,
+/* .card input:focus, */
+.card input:active {
+  background: #2c2c2c;
+  color: wheat;
+  border-color: wheat;
+  cursor: pointer;
+}
+ 
